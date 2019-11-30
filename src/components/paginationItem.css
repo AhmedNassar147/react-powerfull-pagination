@@ -1,0 +1,33 @@
+li#page-item {
+  display: inline-block;
+  min-width: 32px;
+  height: 32px;
+  margin-inline-end: 8px;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 4px;
+  outline: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  font-size: 14pt;
+}
+
+li#page-item.disabled {
+  cursor: not-allowed;
+  font-size: 12pt;
+}
+
+li#page-item.selected {
+  border: 1px solid #006fbb;
+  font-size: 16pt;
+}
+
+li#page-item.no-border {
+  border: 1px solid #d9d9d9;
+}

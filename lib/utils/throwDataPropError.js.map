@@ -1,0 +1,1 @@
+{"version":3,"file":"throwDataPropError.js","sourceRoot":"","sources":["../../src/utils/throwDataPropError.ts"],"names":[],"mappings":";;AAAA,mBAAe,UAAC,YAAoB;IAClC,IAAI,CAAC,YAAY,EAAE;QACjB,OAAO,mCAAmC,CAAC;KAC5C;IAED,IAAI,YAAY,IAAI,OAAO,YAAY,KAAK,QAAQ,EAAE;QACpD,OAAO,kBAAgB,YAAY,sBAAmB,CAAC;KACxD;AACH,CAAC,EAAC"}

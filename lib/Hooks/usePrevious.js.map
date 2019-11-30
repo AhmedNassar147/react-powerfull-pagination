@@ -1,0 +1,1 @@
+{"version":3,"file":"usePrevious.js","sourceRoot":"","sources":["../../src/Hooks/usePrevious.ts"],"names":[],"mappings":";;AAAA,+BAA0C;AAE1C,mBAAe,UAAI,KAAQ;IACzB,IAAI,GAAG,GAAG,cAAM,EAAK,CAAC;IACtB,iBAAS,CAAC;QACR,GAAG,CAAC,OAAO,GAAG,KAAK,CAAC;IACtB,CAAC,CAAC,CAAC;IACH,OAAO,GAAG,CAAC,OAAY,CAAC;AAC1B,CAAC,EAAC"}
