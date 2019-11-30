@@ -1,27 +1,24 @@
 import React from "react";
 import PaginationItemProps from "../interfaces/paginationItem.interface";
-import "./paginationItem.css";
+import { PageItem } from "./styled/pageItem";
 
-const { memo, useMemo } = React;
+const { memo } = React;
 
 const PaginationItem: React.FC<PaginationItemProps> = ({
   disabled,
   children,
   onClick,
-  selected
-}): JSX.Element => {
-  const renderClassNames = useMemo(() => {
-    let className: string = " ";
-    if (selected) className += " selected";
-    if (disabled) className += " disabled";
-    return className;
-  }, [disabled, selected]);
-
-  return (
-    <li id="page-item" onClick={onClick} className={renderClassNames}>
-      {children}
-    </li>
-  );
-};
+  selected,
+  noBorder
+}): JSX.Element => (
+  <PageItem
+    onClick={onClick}
+    disabled={disabled}
+    selected={selected}
+    noBorder={noBorder}
+  >
+    {children}
+  </PageItem>
+);
 
 export default memo(PaginationItem);

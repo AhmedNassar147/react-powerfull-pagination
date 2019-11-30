@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import { PaginationList, WrapperFlex } from "./styled";
 import PaginationProps from "../interfaces/pagination.interface";
 import { PAGE_SIZE_OPTIONS, getPageNumbers, disableNextIcon } from "../utils";
 import usePaginationPageOptions from "../Hooks/usePaginationPageOptions";
@@ -65,9 +65,9 @@ const Pagination: React.FC<PaginationProps> = ({
     return checkShouldDisableNextIcon(len);
   }, [checkShouldDisableNextIcon, pagesNumbers]);
 
-  const paginationView: JSX.Element = (
-    <section id="lib-container-flex">
-      <ul id="lib-pagination-list">
+  return (
+    <WrapperFlex>
+      <PaginationList>
         <PaginationItemsView
           onfetchMoreData={onfetchMore}
           pageSize={pageSize}
@@ -78,11 +78,9 @@ const Pagination: React.FC<PaginationProps> = ({
           onUpdatePageSize={onUpdatePageSize}
           pagesNumbers={pagesNumbers}
         />
-      </ul>
-    </section>
+      </PaginationList>
+    </WrapperFlex>
   );
-
-  return paginationView;
 };
 
 Pagination.defaultProps = {

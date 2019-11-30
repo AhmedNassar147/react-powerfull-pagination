@@ -5,4 +5,5 @@ export default interface PaginationItemProps {
   children: React.ReactNode;
   onClick: () => void;
   selected?: boolean;
+  noBorder?: boolean;
 }

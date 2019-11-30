@@ -1,1 +1,1 @@
-{"version":3,"file":"Pagination.d.ts","sourceRoot":"","sources":["../../src/components/Pagination.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,aAAa,CAAC;AACrB,OAAO,eAAe,MAAM,oCAAoC,CAAC;AAOjE,QAAA,MAAM,UAAU,EAAE,KAAK,CAAC,EAAE,CAAC,eAAe,CA4EzC,CAAC;AASF,eAAe,UAAU,CAAC"}
+{"version":3,"file":"Pagination.d.ts","sourceRoot":"","sources":["../../src/components/Pagination.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAE1B,OAAO,eAAe,MAAM,oCAAoC,CAAC;AAOjE,QAAA,MAAM,UAAU,EAAE,KAAK,CAAC,EAAE,CAAC,eAAe,CA0EzC,CAAC;AASF,eAAe,UAAU,CAAC"}

@@ -1,4 +1,6 @@
-section#lib-container-flex {
+import styled from "styled-components";
+
+export const WrapperFlex = styled.section`
   display: flex;
   flex-direction: row;
   height: 38px;
@@ -6,9 +8,9 @@ section#lib-container-flex {
   justify-content: flex-end;
   width: 100%;
   margin: 9px 0px 0px 0px;
-}
+`;
 
-section#lib-container-flex > ul#lib-pagination-list {
+export const PaginationList = styled.ul`
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -19,4 +21,4 @@ section#lib-container-flex > ul#lib-pagination-list {
   list-style: none;
   -webkit-font-feature-settings: "tnum";
   font-feature-settings: "tnum";
-}
+`;

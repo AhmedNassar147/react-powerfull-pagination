@@ -4,5 +4,6 @@ export default interface PaginationItemProps {
     children: React.ReactNode;
     onClick: () => void;
     selected?: boolean;
+    noBorder?: boolean;
 }
 //# sourceMappingURL=paginationItem.interface.d.ts.map

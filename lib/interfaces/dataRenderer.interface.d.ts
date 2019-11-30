@@ -1,4 +1,3 @@
-/// <reference types="react" />
 export interface Params {
     dataSource: any[];
     activePage: number;
