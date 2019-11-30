@@ -1,7 +1,7 @@
 {
   "name": "react-powerfull-pagination",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "customizable pagination component for react apps",
   "keywords": [
     "pagination",
@@ -25,12 +25,14 @@
     "build": "tsc -p ."
   },
   "peerDependencies": {
+    "@types/styled-components": "^4.4.0",
     "react": ">= 16.0.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.14",
     "@types/react": "^16.9.13",
     "react": "^16.12.0",
+    "styled-components": "^4.4.1",
     "typescript": "^3.7.2"
   }
 }
